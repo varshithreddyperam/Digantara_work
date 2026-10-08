@@ -28,9 +28,7 @@ Digantara_work/
 │   ├── inspect_dataset.py           # Analyzes headers, statistics, and sensor regimes across FITS files
 │   ├── scan_candidates.py           # Rapid streak candidate scanning and preview crop extraction
 │   ├── run_pipeline.py              # Single command executing the full end-to-end pipeline
-│   ├── validate_outputs.py          # Rigorous verification of YOLO syntax, masks, and dimensions
-│   ├── package_submission.py        # Compiles the full 1.34 GB standalone submission ZIP
-│   └── package_lightweight.py       # Compiles a ~29 MB upload-ready core deliverables ZIP
+│   └── validate_outputs.py          # Rigorous verification of YOLO syntax, masks, and dimensions
 ├── tests/
 │   └── test_pipeline.py             # Pytest suite verifying tiling math, lossless reconstruction, etc.
 ├── requirements.txt                 # Tested Python dependencies
@@ -71,12 +69,6 @@ python scripts/run_pipeline.py
 Verify polygon bounds, label syntax, mask values, and lossless reconstruction:
 ```bash
 python scripts/validate_outputs.py
-```
-
-### 6. Build Submission Archives
-```bash
-python scripts/package_submission.py
-python scripts/package_lightweight.py
 ```
 
 ---
