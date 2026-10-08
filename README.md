@@ -35,9 +35,8 @@ Digantara_work/
 ├── tests/
 │   └── test_pipeline.py             # Pytest suite verifying tiling math, lossless reconstruction, etc.
 ├── docs/
-│   ├── ASSESSMENT_REPORT.pdf        # Official 4-page written assessment report
-│   ├── ASSESSMENT_REPORT.md         # Full assessment report in Markdown
-│   ├── SUBMISSION_README.md         # Submission overview and inventory
+│   ├── ASSESSMENT_REPORT.md         # Full technical assessment report in Markdown (Questions 2a-2d)
+│   ├── SUBMISSION_README.md         # Submission overview and deliverables inventory
 │   ├── dataset_inspection.json      # Complete header cards and statistics
 │   ├── pipeline_summary.json        # Execution times and detection counts
 │   └── validation_report.json       # Formal syntax, mask, and reconstruction validation results
