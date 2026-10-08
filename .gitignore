@@ -7,9 +7,10 @@ Datasets_Assessment.zip
 *.tar.gz
 *.zip
 
-# Confidential assessment materials, reports and documentation
+# Confidential assessment materials, reports, scripts and documentation
 *.pdf
 docs/
+scripts/
 
 # Python artifacts and virtual environments
 __pycache__/

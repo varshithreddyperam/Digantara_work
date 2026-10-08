@@ -24,11 +24,6 @@ Digantara_work/
 │   ├── yolo_exporter.py             # Polygon extraction, normalization, YOLO segmentation format
 │   ├── reconstructor.py             # Lossless tile reassembly engine & bit-for-bit assertion
 │   └── visualizer.py                # Visual overlays (blue blobs, pink streaks) and comparison crops
-├── scripts/
-│   ├── inspect_dataset.py           # Analyzes headers, statistics, and sensor regimes across FITS files
-│   ├── scan_candidates.py           # Rapid streak candidate scanning and preview crop extraction
-│   ├── run_pipeline.py              # Single command executing the full end-to-end pipeline
-│   └── validate_outputs.py          # Rigorous verification of YOLO syntax, masks, and dimensions
 ├── tests/
 │   └── test_pipeline.py             # Pytest suite verifying tiling math, lossless reconstruction, etc.
 ├── requirements.txt                 # Tested Python dependencies
@@ -37,7 +32,7 @@ Digantara_work/
 
 ---
 
-## 🚀 Quickstart & Pipeline Execution
+## 🚀 Quickstart & Testing
 
 ### 1. Environment Setup
 ```bash
@@ -52,23 +47,6 @@ pip install -r requirements.txt
 ### 2. Run Automated Test Suite
 ```bash
 python -m pytest tests/test_pipeline.py
-```
-
-### 3. Run Dataset Inspection
-```bash
-python scripts/inspect_dataset.py
-```
-
-### 4. Execute Complete End-to-End Pipeline
-Run the entire workflow (preprocessing, full-resolution detection, 1024×1024 tiling, YOLO export, and tile reassembly) with a single command:
-```bash
-python scripts/run_pipeline.py
-```
-
-### 5. Validate All Outputs
-Verify polygon bounds, label syntax, mask values, and lossless reconstruction:
-```bash
-python scripts/validate_outputs.py
 ```
 
 ---
