@@ -29,7 +29,6 @@ Digantara_work/
 │   ├── scan_candidates.py           # Rapid streak candidate scanning and preview crop extraction
 │   ├── run_pipeline.py              # Single command executing the full end-to-end pipeline
 │   ├── validate_outputs.py          # Rigorous verification of YOLO syntax, masks, and dimensions
-│   ├── generate_report_pdf.py       # Renders the official 4-page Assessment Report PDF via ReportLab
 │   ├── package_submission.py        # Compiles the full 1.34 GB standalone submission ZIP
 │   └── package_lightweight.py       # Compiles a ~29 MB upload-ready core deliverables ZIP
 ├── tests/
@@ -74,9 +73,8 @@ Verify polygon bounds, label syntax, mask values, and lossless reconstruction:
 python scripts/validate_outputs.py
 ```
 
-### 6. Build Assessment Report PDF & Submission Archives
+### 6. Build Submission Archives
 ```bash
-python scripts/generate_report_pdf.py
 python scripts/package_submission.py
 python scripts/package_lightweight.py
 ```
