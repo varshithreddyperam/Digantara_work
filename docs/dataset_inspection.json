@@ -1,0 +1,544 @@
+[
+  {
+    "filename": "1a600998-b97c-4307-8632-6fcf573621ff.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-28T14:53:02.070503+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 1001.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 16380011,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 0.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "p99_9": 3.0
+      },
+      "estimated_bg_median": 1.0,
+      "estimated_bg_sigma": 0.0,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "3e6beceb-b453-4e49-a222-b661eaaac4d0.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-15T22:35:42.755602+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 4095.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 18826117,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 0.0,
+        "median": 3.0,
+        "p75": 5.0,
+        "p95": 9.0,
+        "p99": 12.0,
+        "p99_9": 25.0
+      },
+      "estimated_bg_median": 3.0,
+      "estimated_bg_sigma": 2.9652,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "4a8e6cd4-1f5a-4f3a-a858-0f905c2d0b9a.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-28T14:51:04.481434+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 4095.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 9841013,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 2.0,
+        "p95": 2.0,
+        "p99": 3.0,
+        "p99_9": 4.0
+      },
+      "estimated_bg_median": 1.0,
+      "estimated_bg_sigma": 0.0,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "4e2cdd92-f8af-40ac-b3dd-68f146353f5b.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-28T14:54:35.214382+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 4095.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 9879676,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 2.0,
+        "p95": 2.0,
+        "p99": 3.0,
+        "p99_9": 4.0
+      },
+      "estimated_bg_median": 1.0,
+      "estimated_bg_sigma": 0.0,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "66ed4268-554e-4729-9e87-e556c2fd42b9.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-15T16:05:28.921471+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 4095.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 16309030,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 1.0,
+        "median": 4.0,
+        "p75": 7.0,
+        "p95": 12.0,
+        "p99": 17.0,
+        "p99_9": 40.0
+      },
+      "estimated_bg_median": 4.0,
+      "estimated_bg_sigma": 4.4478,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "7030c2ac-83fe-4a83-b242-46aec9fec928.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-15T22:30:40.485151+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 4095.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 18863220,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 0.0,
+        "median": 3.0,
+        "p75": 5.0,
+        "p95": 9.0,
+        "p99": 12.0,
+        "p99_9": 26.0
+      },
+      "estimated_bg_median": 3.0,
+      "estimated_bg_sigma": 2.9652,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "7d7fefcb-60ce-4f09-8572-4db66d030ff3.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-28T14:53:14.650997+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 1360.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 19225007,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 0.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p95": 2.0,
+        "p99": 2.0,
+        "p99_9": 3.0
+      },
+      "estimated_bg_median": 1.0,
+      "estimated_bg_sigma": 0.0,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "7e5f3e1c-0255-44d2-9a5a-1e990100e5b6.fits",
+    "size_bytes": 122094720,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 38,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "DATE-OBS": "2026-08-28T14:52:06.530878+00:00",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 4095.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 9782854,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 2.0,
+        "p95": 2.0,
+        "p99": 3.0,
+        "p99_9": 4.0
+      },
+      "estimated_bg_median": 1.0,
+      "estimated_bg_sigma": 0.0,
+      "saturated_65535_count": 0,
+      "saturated_65500_count": 0
+    }
+  },
+  {
+    "filename": "CAM_B_20260815T153133_manual_f000207.fits",
+    "size_bytes": 122091840,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 17,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "GAIN": 0.0,
+      "DATE-OBS": "2026-08-15T15:31:33.109",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 65535.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 8839722,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 15.0,
+        "median": 43.0,
+        "p75": 73.0,
+        "p95": 121.0,
+        "p99": 171.0,
+        "p99_9": 474.0
+      },
+      "estimated_bg_median": 43.0,
+      "estimated_bg_sigma": 42.9954,
+      "saturated_65535_count": 33,
+      "saturated_65500_count": 33
+    }
+  },
+  {
+    "filename": "CAM_B_20260815T154244_manual_f000276.fits",
+    "size_bytes": 122091840,
+    "num_hdus": 1,
+    "hdus": [
+      {
+        "index": 0,
+        "name": "PRIMARY",
+        "is_image": true,
+        "header_cards": 17,
+        "shape": [
+          6380,
+          9568
+        ],
+        "dtype": "uint16"
+      }
+    ],
+    "header_sample": {
+      "SIMPLE": true,
+      "BITPIX": 16,
+      "NAXIS": 2,
+      "NAXIS1": 9568,
+      "NAXIS2": 6380,
+      "BSCALE": 1,
+      "BZERO": 32768,
+      "GAIN": 0.0,
+      "DATE-OBS": "2026-08-15T15:42:44.375",
+      "INSTRUME": "MARS-6100-18GTM-TF"
+    },
+    "height": 6380,
+    "width": 9568,
+    "stats": {
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 65535.0,
+      "nan_count": 0,
+      "inf_count": 0,
+      "zero_count": 8584988,
+      "percentiles": {
+        "p0_1": 0.0,
+        "p1": 0.0,
+        "p5": 0.0,
+        "p25": 15.0,
+        "median": 44.0,
+        "p75": 74.0,
+        "p95": 122.0,
+        "p99": 172.0,
+        "p99_9": 465.0
+      },
+      "estimated_bg_median": 44.0,
+      "estimated_bg_sigma": 42.9954,
+      "saturated_65535_count": 38,
+      "saturated_65500_count": 38
+    }
+  }
+]

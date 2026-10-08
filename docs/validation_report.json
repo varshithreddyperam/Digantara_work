@@ -1,0 +1,36 @@
+{
+  "dataset_checks": {
+    "train_images_count": 560,
+    "train_labels_count": 560,
+    "val_images_count": 140,
+    "val_labels_count": 140
+  },
+  "label_checks": {
+    "total_tile_labels_checked": 700,
+    "total_polygons_checked": 27350,
+    "classes_found": [
+      0,
+      1
+    ],
+    "invalid_coords_count": 0,
+    "polygons_under_3_points": 0,
+    "empty_tile_labels": 12
+  },
+  "mask_checks": {
+    "total_tile_masks_checked": 700,
+    "valid_mask_values": true,
+    "invalid_values_found": []
+  },
+  "manifest_checks": {
+    "manifest_files_count": 10,
+    "total_tiles_in_manifests": 700,
+    "padding_exact": true
+  },
+  "full_size_checks": {
+    "full_images_count": 10,
+    "full_masks_count": 10,
+    "full_overlays_count": 10,
+    "full_labels_count": 10,
+    "dimensions_match_9568x6380": true
+  }
+}

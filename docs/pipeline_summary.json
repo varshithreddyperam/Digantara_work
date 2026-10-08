@@ -1,0 +1,2604 @@
+{
+  "pipeline_timestamp": "2026-10-08T11:21:28Z",
+  "total_images_processed": 10,
+  "total_tiles_generated": 700,
+  "total_stars_detected": 64764,
+  "total_streaks_detected": 71,
+  "total_review_flags": 31,
+  "all_reconstructions_lossless": true,
+  "image_summaries": [
+    {
+      "image_id": "1a600998-b97c-4307-8632-6fcf573621ff",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 0.8544290661811829,
+      "bg_median": 0.8973078727722168,
+      "num_stars": 513,
+      "num_streaks": 0,
+      "num_review": 0,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 467,
+      "review_entries": [],
+      "elapsed_sec": 20.23
+    },
+    {
+      "image_id": "3e6beceb-b453-4e49-a222-b661eaaac4d0",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 3.187647405052185,
+      "bg_median": 2.9252920150756836,
+      "num_stars": 9752,
+      "num_streaks": 5,
+      "num_review": 2,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 3017,
+      "review_entries": [
+        {
+          "image_id": "3e6beceb-b453-4e49-a222-b661eaaac4d0",
+          "instance_id": 2092,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6892,
+            486,
+            20,
+            19
+          ],
+          "centroid": [
+            6902.031847133758,
+            495.5987261146497
+          ],
+          "morphology": {
+            "area": 122.5,
+            "perimeter": 86.66904664039612,
+            "circularity": 0.20493583897188503,
+            "bbox_aspect": 1.0526310249310395,
+            "rect_len": 22.46535873413086,
+            "rect_width": 10.816654205322266,
+            "rect_aspect": 2.0769211568088557,
+            "semi_major": 12.199056114134002,
+            "semi_minor": 4.574216096351332,
+            "axis_ratio": 2.66685901393314,
+            "eccentricity": 0.9270390691422735,
+            "orientation_angle": -33.6900634765625,
+            "peak_intensity": 315.0041809082031,
+            "mean_intensity": 57.547386169433594
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\3e6beceb-b453-4e49-a222-b661eaaac4d0\\streak_1_inst2092.png"
+        },
+        {
+          "image_id": "3e6beceb-b453-4e49-a222-b661eaaac4d0",
+          "instance_id": 2379,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            3591,
+            553,
+            28,
+            21
+          ],
+          "centroid": [
+            3604.9885714285715,
+            563.3657142857143
+          ],
+          "morphology": {
+            "area": 137.0,
+            "perimeter": 107.53910398483276,
+            "circularity": 0.1488667146310802,
+            "bbox_aspect": 1.3333326984130007,
+            "rect_len": 31.340560913085938,
+            "rect_width": 8.043152809143066,
+            "rect_aspect": 3.8965468754977275,
+            "semi_major": 16.801503457523143,
+            "semi_minor": 2.9845480071395256,
+            "axis_ratio": 5.629308185532281,
+            "eccentricity": 0.9840963030078652,
+            "orientation_angle": -56.309932708740234,
+            "peak_intensity": 50.799232482910156,
+            "mean_intensity": 17.423664093017578
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\3e6beceb-b453-4e49-a222-b661eaaac4d0\\streak_2_inst2379.png"
+        },
+        {
+          "image_id": "3e6beceb-b453-4e49-a222-b661eaaac4d0",
+          "instance_id": 3330,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6519,
+            763,
+            47,
+            14
+          ],
+          "centroid": [
+            6542.379310344828,
+            769.4439655172414
+          ],
+          "morphology": {
+            "area": 184.5,
+            "perimeter": 119.63960909843445,
+            "circularity": 0.16197808633557906,
+            "bbox_aspect": 3.3571404591853864,
+            "rect_len": 47.26398849487305,
+            "rect_width": 7.2562971115112305,
+            "rect_aspect": 6.513504427051413,
+            "semi_major": 24.793949597072963,
+            "semi_minor": 2.6493593878057196,
+            "axis_ratio": 9.358116493949089,
+            "eccentricity": 0.9942746062538406,
+            "orientation_angle": -78.69007110595703,
+            "peak_intensity": 67.87422180175781,
+            "mean_intensity": 23.61136245727539
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\3e6beceb-b453-4e49-a222-b661eaaac4d0\\streak_3_inst3330.png"
+        },
+        {
+          "image_id": "3e6beceb-b453-4e49-a222-b661eaaac4d0",
+          "instance_id": 4306,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            4806,
+            1003,
+            31,
+            24
+          ],
+          "centroid": [
+            4821.014814814815,
+            1014.2
+          ],
+          "morphology": {
+            "area": 96.0,
+            "perimeter": 106.36753046512604,
+            "circularity": 0.1066259575543487,
+            "bbox_aspect": 1.2916661284724464,
+            "rect_len": 36.277442932128906,
+            "rect_width": 6.2891130447387695,
+            "rect_aspect": 5.768283220738888,
+            "semi_major": 18.013866614105982,
+            "semi_minor": 2.0581831560750987,
+            "axis_ratio": 8.751889438018956,
+            "eccentricity": 0.9934513995031847,
+            "orientation_angle": -57.52880859375,
+            "peak_intensity": 39.8668098449707,
+            "mean_intensity": 14.465221405029297
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\3e6beceb-b453-4e49-a222-b661eaaac4d0\\streak_4_inst4306.png"
+        },
+        {
+          "image_id": "3e6beceb-b453-4e49-a222-b661eaaac4d0",
+          "instance_id": 4417,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            2338,
+            1026,
+            19,
+            6
+          ],
+          "centroid": [
+            2347.377358490566,
+            1028.5094339622642
+          ],
+          "morphology": {
+            "area": 30.0,
+            "perimeter": 65.25483322143555,
+            "circularity": 0.08853311616504442,
+            "bbox_aspect": 3.1666613888976856,
+            "rect_len": 18.0,
+            "rect_width": 5.0,
+            "rect_aspect": 3.5999928000144004,
+            "semi_major": 11.159519643465151,
+            "semi_minor": 1.7689880887048628,
+            "axis_ratio": 6.308063298100072,
+            "eccentricity": 0.9873560397352005,
+            "orientation_angle": -90.0,
+            "peak_intensity": 19.96009063720703,
+            "mean_intensity": 10.376327514648438
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\3e6beceb-b453-4e49-a222-b661eaaac4d0\\streak_5_inst4417.png"
+        }
+      ],
+      "elapsed_sec": 26.45
+    },
+    {
+      "image_id": "4a8e6cd4-1f5a-4f3a-a858-0f905c2d0b9a",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 0.5733613254189491,
+      "bg_median": 1.1398332118988037,
+      "num_stars": 891,
+      "num_streaks": 1,
+      "num_review": 0,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 768,
+      "review_entries": [
+        {
+          "image_id": "4a8e6cd4-1f5a-4f3a-a858-0f905c2d0b9a",
+          "instance_id": 399,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6526,
+            2686,
+            54,
+            12
+          ],
+          "centroid": [
+            6552.120092378753,
+            2691.6443418013855
+          ],
+          "morphology": {
+            "area": 376.0,
+            "perimeter": 125.25483322143555,
+            "circularity": 0.3011679292646806,
+            "bbox_aspect": 4.499996250003125,
+            "rect_len": 53.28721618652344,
+            "rect_width": 9.52908992767334,
+            "rect_aspect": 5.592051357523569,
+            "semi_major": 28.812180148397626,
+            "semi_minor": 4.278533246489977,
+            "axis_ratio": 6.733968182955155,
+            "eccentricity": 0.9889128012222166,
+            "orientation_angle": -86.05481719970703,
+            "peak_intensity": 200.8938751220703,
+            "mean_intensity": 41.78143310546875
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\4a8e6cd4-1f5a-4f3a-a858-0f905c2d0b9a\\streak_1_inst399.png"
+        }
+      ],
+      "elapsed_sec": 19.85
+    },
+    {
+      "image_id": "4e2cdd92-f8af-40ac-b3dd-68f146353f5b",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 0.5729352943897247,
+      "bg_median": 1.1384079456329346,
+      "num_stars": 865,
+      "num_streaks": 3,
+      "num_review": 0,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 741,
+      "review_entries": [
+        {
+          "image_id": "4e2cdd92-f8af-40ac-b3dd-68f146353f5b",
+          "instance_id": 16,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            2041,
+            101,
+            58,
+            14
+          ],
+          "centroid": [
+            2069.7342657342656,
+            107.81818181818181
+          ],
+          "morphology": {
+            "area": 225.5,
+            "perimeter": 134.32590091228485,
+            "circularity": 0.1570496186526679,
+            "bbox_aspect": 4.142854183675583,
+            "rect_len": 58.183528900146484,
+            "rect_width": 6.050832271575928,
+            "rect_aspect": 9.615773521888999,
+            "semi_major": 32.507555317473795,
+            "semi_minor": 2.372112149488894,
+            "axis_ratio": 13.703477289953902,
+            "eccentricity": 0.9973340554835698,
+            "orientation_angle": -9.162346839904785,
+            "peak_intensity": 14.147296905517578,
+            "mean_intensity": 8.01201343536377
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\4e2cdd92-f8af-40ac-b3dd-68f146353f5b\\streak_1_inst16.png"
+        },
+        {
+          "image_id": "4e2cdd92-f8af-40ac-b3dd-68f146353f5b",
+          "instance_id": 558,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            9562,
+            3852,
+            6,
+            16
+          ],
+          "centroid": [
+            9565.20634920635,
+            3858.9841269841268
+          ],
+          "morphology": {
+            "area": 45.5,
+            "perimeter": 35.899494767189026,
+            "circularity": 0.4436541900772186,
+            "bbox_aspect": 2.66666222222963,
+            "rect_len": 15.0,
+            "rect_width": 5.0,
+            "rect_aspect": 2.9999940000120002,
+            "semi_major": 6.733724735818712,
+            "semi_minor": 2.5921022636780933,
+            "axis_ratio": 2.5976849222653575,
+            "eccentricity": 0.9229402277443477,
+            "orientation_angle": -90.0,
+            "peak_intensity": 422.9888610839844,
+            "mean_intensity": 47.831600189208984
+          },
+          "confidence": 0.91,
+          "crop_path": "data/processed\\review_crops\\4e2cdd92-f8af-40ac-b3dd-68f146353f5b\\streak_2_inst558.png"
+        },
+        {
+          "image_id": "4e2cdd92-f8af-40ac-b3dd-68f146353f5b",
+          "instance_id": 601,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            9354,
+            4179,
+            17,
+            13
+          ],
+          "centroid": [
+            9361.826086956522,
+            4185.04347826087
+          ],
+          "morphology": {
+            "area": 71.5,
+            "perimeter": 46.041629910469055,
+            "circularity": 0.42385228287882265,
+            "bbox_aspect": 1.3076913017759217,
+            "rect_len": 18.799999237060547,
+            "rect_width": 5.599999904632568,
+            "rect_aspect": 3.3571367831882553,
+            "semi_major": 10.06175440398328,
+            "semi_minor": 2.3723595655354273,
+            "axis_ratio": 4.24106465296596,
+            "eccentricity": 0.9718064804302811,
+            "orientation_angle": -36.86989974975586,
+            "peak_intensity": 19.074628829956055,
+            "mean_intensity": 8.520861625671387
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\4e2cdd92-f8af-40ac-b3dd-68f146353f5b\\streak_3_inst601.png"
+        }
+      ],
+      "elapsed_sec": 19.48
+    },
+    {
+      "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 4.3135775147438045,
+      "bg_median": 4.116411209106445,
+      "num_stars": 13368,
+      "num_streaks": 19,
+      "num_review": 14,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 7362,
+      "review_entries": [
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 216,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            8402,
+            40,
+            14,
+            8
+          ],
+          "centroid": [
+            8409.08695652174,
+            43.666666666666664
+          ],
+          "morphology": {
+            "area": 51.5,
+            "perimeter": 43.69848430156708,
+            "circularity": 0.33890997070578494,
+            "bbox_aspect": 1.7499978125027345,
+            "rect_len": 13.0,
+            "rect_width": 7.0,
+            "rect_aspect": 1.8571402040854228,
+            "semi_major": 5.981971297973336,
+            "semi_minor": 3.0713078086526373,
+            "axis_ratio": 1.9476317280698399,
+            "eccentricity": 0.8581330678629477,
+            "orientation_angle": -90.0,
+            "peak_intensity": 168.91082763671875,
+            "mean_intensity": 52.566917419433594
+          },
+          "confidence": 0.6,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_1_inst216.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 1339,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5497,
+            5221,
+            14,
+            13
+          ],
+          "centroid": [
+            5502.716049382716,
+            5226.691358024691
+          ],
+          "morphology": {
+            "area": 61.0,
+            "perimeter": 61.5979790687561,
+            "circularity": 0.2020257702527714,
+            "bbox_aspect": 1.0769222485213472,
+            "rect_len": 16.26345443725586,
+            "rect_width": 8.485280990600586,
+            "rect_aspect": 1.9166643141963406,
+            "semi_major": 7.574947486697301,
+            "semi_minor": 3.156048253568775,
+            "axis_ratio": 2.4000607316630402,
+            "eccentricity": 0.9090702325947676,
+            "orientation_angle": -45.0,
+            "peak_intensity": 314.05340576171875,
+            "mean_intensity": 35.167057037353516
+          },
+          "confidence": 0.903,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_2_inst1339.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 1487,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6344,
+            2843,
+            24,
+            15
+          ],
+          "centroid": [
+            6354.582733812949,
+            2851.561151079137
+          ],
+          "morphology": {
+            "area": 111.5,
+            "perimeter": 93.63960909843445,
+            "circularity": 0.15979586879530164,
+            "bbox_aspect": 1.5999989333340445,
+            "rect_len": 20.692310333251953,
+            "rect_width": 15.076925277709961,
+            "rect_aspect": 1.3724480441223272,
+            "semi_major": 10.687819111189778,
+            "semi_minor": 4.731727486932124,
+            "axis_ratio": 2.258708530838519,
+            "eccentricity": 0.8966591690993706,
+            "orientation_angle": -22.619863510131836,
+            "peak_intensity": 416.4157409667969,
+            "mean_intensity": 39.96586990356445
+          },
+          "confidence": 0.933,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_3_inst1487.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 2128,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            4875,
+            5344,
+            17,
+            15
+          ],
+          "centroid": [
+            4881.963855421687,
+            5350.939759036145
+          ],
+          "morphology": {
+            "area": 59.5,
+            "perimeter": 55.35533833503723,
+            "circularity": 0.24401010435501924,
+            "bbox_aspect": 1.1333325777782814,
+            "rect_len": 20.485902786254883,
+            "rect_width": 6.529881000518799,
+            "rect_aspect": 3.137250343784802,
+            "semi_major": 8.94155816997429,
+            "semi_minor": 2.4629321322201445,
+            "axis_ratio": 3.6303051239183333,
+            "eccentricity": 0.9613160445776209,
+            "orientation_angle": -39.80556869506836,
+            "peak_intensity": 193.1109619140625,
+            "mean_intensity": 36.96096420288086
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_4_inst2128.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 2206,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6671,
+            5360,
+            17,
+            10
+          ],
+          "centroid": [
+            6679.295774647887,
+            5364.647887323944
+          ],
+          "morphology": {
+            "area": 47.0,
+            "perimeter": 61.25483322143555,
+            "circularity": 0.1574080716127634,
+            "bbox_aspect": 1.6999983000017,
+            "rect_len": 16.761962890625,
+            "rect_width": 7.471045017242432,
+            "rect_aspect": 2.2435871308590425,
+            "semi_major": 9.525096207538107,
+            "semi_minor": 2.6083618889462357,
+            "axis_ratio": 3.6516140979104152,
+            "eccentricity": 0.9617749783439029,
+            "orientation_angle": -73.3007583618164,
+            "peak_intensity": 213.3758544921875,
+            "mean_intensity": 37.49481964111328
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_5_inst2206.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 5675,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6233,
+            1013,
+            15,
+            12
+          ],
+          "centroid": [
+            6239.072463768116,
+            1019.4492753623189
+          ],
+          "morphology": {
+            "area": 44.5,
+            "perimeter": 60.18376541137695,
+            "circularity": 0.15438715456958754,
+            "bbox_aspect": 1.2499989583342015,
+            "rect_len": 16.4486083984375,
+            "rect_width": 8.325838088989258,
+            "rect_aspect": 1.975607556447061,
+            "semi_major": 7.50521842705234,
+            "semi_minor": 3.3514040367826388,
+            "axis_ratio": 2.239358313367023,
+            "eccentricity": 0.8947620971164366,
+            "orientation_angle": -66.03751373291016,
+            "peak_intensity": 323.6461486816406,
+            "mean_intensity": 47.44391632080078
+          },
+          "confidence": 0.888,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_6_inst5675.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 5978,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            101,
+            3531,
+            29,
+            24
+          ],
+          "centroid": [
+            114.9917695473251,
+            3542.061728395062
+          ],
+          "morphology": {
+            "area": 208.0,
+            "perimeter": 95.39696848392487,
+            "circularity": 0.287212972076168,
+            "bbox_aspect": 1.208332829861321,
+            "rect_len": 33.412147521972656,
+            "rect_width": 9.145661354064941,
+            "rect_aspect": 3.653329124616105,
+            "semi_major": 18.203301090744297,
+            "semi_minor": 3.8431883640943045,
+            "axis_ratio": 4.736387011916037,
+            "eccentricity": 0.9774588758602148,
+            "orientation_angle": -37.5685920715332,
+            "peak_intensity": 85.35719299316406,
+            "mean_intensity": 33.260169982910156
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_7_inst5978.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 6179,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6482,
+            3559,
+            15,
+            18
+          ],
+          "centroid": [
+            6489.725490196079,
+            3567.8823529411766
+          ],
+          "morphology": {
+            "area": 67.5,
+            "perimeter": 89.63960886001587,
+            "circularity": 0.10556348789256852,
+            "bbox_aspect": 1.1999992000005333,
+            "rect_len": 17.670289993286133,
+            "rect_width": 12.641590118408203,
+            "rect_aspect": 1.3977890320668622,
+            "semi_major": 8.553083088736852,
+            "semi_minor": 3.9247092969246262,
+            "axis_ratio": 2.1792353313672628,
+            "eccentricity": 0.8885060772549913,
+            "orientation_angle": -77.90524291992188,
+            "peak_intensity": 481.0464172363281,
+            "mean_intensity": 51.31522750854492
+          },
+          "confidence": 0.895,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_8_inst6179.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 6192,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            3327,
+            3560,
+            9,
+            18
+          ],
+          "centroid": [
+            3331.310810810811,
+            3567.9594594594596
+          ],
+          "morphology": {
+            "area": 51.0,
+            "perimeter": 53.11269783973694,
+            "circularity": 0.22718691618403924,
+            "bbox_aspect": 1.999997777780247,
+            "rect_len": 17.220029830932617,
+            "rect_width": 7.518604278564453,
+            "rect_aspect": 2.290319624458841,
+            "semi_major": 9.999794035208728,
+            "semi_minor": 2.5248259218111153,
+            "axis_ratio": 3.9604306600947448,
+            "eccentricity": 0.9676000812154021,
+            "orientation_angle": -14.036243438720703,
+            "peak_intensity": 561.1747436523438,
+            "mean_intensity": 56.42331314086914
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_9_inst6192.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 6285,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            3153,
+            1111,
+            11,
+            11
+          ],
+          "centroid": [
+            3157.530612244898,
+            1115.2244897959183
+          ],
+          "morphology": {
+            "area": 32.5,
+            "perimeter": 46.5269113779068,
+            "circularity": 0.18866214942867204,
+            "bbox_aspect": 0.9999990909099173,
+            "rect_len": 12.203404426574707,
+            "rect_width": 6.379053115844727,
+            "rect_aspect": 1.9130402388186296,
+            "semi_major": 5.044380376928059,
+            "semi_minor": 2.9218551965695463,
+            "axis_ratio": 1.7263715688900008,
+            "eccentricity": 0.8151643679126117,
+            "orientation_angle": -33.6900634765625,
+            "peak_intensity": 137.96238708496094,
+            "mean_intensity": 28.37070083618164
+          },
+          "confidence": 0.6,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_10_inst6285.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 6638,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5138,
+            6104,
+            26,
+            16
+          ],
+          "centroid": [
+            5150.773684210526,
+            6111.273684210526
+          ],
+          "morphology": {
+            "area": 152.0,
+            "perimeter": 104.22539567947388,
+            "circularity": 0.17583541341921666,
+            "bbox_aspect": 1.6249989843756347,
+            "rect_len": 26.19384765625,
+            "rect_width": 12.611852645874023,
+            "rect_aspect": 2.0769214184884364,
+            "semi_major": 11.40860782936303,
+            "semi_minor": 4.762127840674534,
+            "axis_ratio": 2.3956451079306373,
+            "eccentricity": 0.9087158218061347,
+            "orientation_angle": -75.96375274658203,
+            "peak_intensity": 1904.239990234375,
+            "mean_intensity": 103.00643157958984
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_11_inst6638.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 6920,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            4356,
+            1205,
+            22,
+            19
+          ],
+          "centroid": [
+            4367.266331658291,
+            1213.6030150753768
+          ],
+          "morphology": {
+            "area": 170.5,
+            "perimeter": 81.15432798862457,
+            "circularity": 0.3253200839043466,
+            "bbox_aspect": 1.1578941274241434,
+            "rect_len": 21.400001525878906,
+            "rect_width": 12.20000171661377,
+            "rect_aspect": 1.7540968011314897,
+            "semi_major": 10.570604699410527,
+            "semi_minor": 5.477550020647431,
+            "axis_ratio": 1.929770003480641,
+            "eccentricity": 0.855267346786372,
+            "orientation_angle": -53.13010025024414,
+            "peak_intensity": 2112.614501953125,
+            "mean_intensity": 133.10523986816406
+          },
+          "confidence": 0.907,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_12_inst6920.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 9340,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5485,
+            4119,
+            13,
+            8
+          ],
+          "centroid": [
+            5490.096153846154,
+            4122.326923076923
+          ],
+          "morphology": {
+            "area": 31.5,
+            "perimeter": 48.5269113779068,
+            "circularity": 0.1680951244495707,
+            "bbox_aspect": 1.624997968752539,
+            "rect_len": 12.369317054748535,
+            "rect_width": 6.5484619140625,
+            "rect_aspect": 1.8888860205975804,
+            "semi_major": 4.573653046274381,
+            "semi_minor": 2.6999130985486786,
+            "axis_ratio": 1.693937354871659,
+            "eccentricity": 0.8071702751661746,
+            "orientation_angle": -75.96375274658203,
+            "peak_intensity": 168.84124755859375,
+            "mean_intensity": 26.85968017578125
+          },
+          "confidence": 0.6,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_13_inst9340.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 9827,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            7879,
+            1815,
+            20,
+            18
+          ],
+          "centroid": [
+            7889.9375,
+            1824.044642857143
+          ],
+          "morphology": {
+            "area": 82.0,
+            "perimeter": 79.39696860313416,
+            "circularity": 0.16346164828710885,
+            "bbox_aspect": 1.1111104938275034,
+            "rect_len": 23.297409057617188,
+            "rect_width": 9.15255355834961,
+            "rect_aspect": 2.545451764316202,
+            "semi_major": 11.370758152195387,
+            "semi_minor": 3.97091382662447,
+            "axis_ratio": 2.8634395770565755,
+            "eccentricity": 0.9370401860801649,
+            "orientation_angle": -56.309932708740234,
+            "peak_intensity": 1175.88671875,
+            "mean_intensity": 108.75370025634766
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_14_inst9827.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 10016,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5316,
+            4270,
+            14,
+            14
+          ],
+          "centroid": [
+            5322.8452380952385,
+            4275.714285714285
+          ],
+          "morphology": {
+            "area": 58.5,
+            "perimeter": 65.8406194448471,
+            "circularity": 0.1695812818587287,
+            "bbox_aspect": 0.9999992857147959,
+            "rect_len": 14.484235763549805,
+            "rect_width": 10.770329475402832,
+            "rect_aspect": 1.3448262978737786,
+            "semi_major": 7.50114044036088,
+            "semi_minor": 3.199246314061151,
+            "axis_ratio": 2.3445853321327896,
+            "eccentricity": 0.9044869458943476,
+            "orientation_angle": -21.801408767700195,
+            "peak_intensity": 1265.3997802734375,
+            "mean_intensity": 58.706153869628906
+          },
+          "confidence": 0.879,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_15_inst10016.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 10102,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            3988,
+            4293,
+            15,
+            19
+          ],
+          "centroid": [
+            3995.6153846153848,
+            4302.08547008547
+          ],
+          "morphology": {
+            "area": 88.5,
+            "perimeter": 78.32590079307556,
+            "circularity": 0.1812768467927568,
+            "bbox_aspect": 1.2666658222227851,
+            "rect_len": 20.01249885559082,
+            "rect_width": 11.842601776123047,
+            "rect_aspect": 1.6898720682493213,
+            "semi_major": 8.571554195495317,
+            "semi_minor": 4.378520436611568,
+            "axis_ratio": 1.957592424277014,
+            "eccentricity": 0.8596877609915935,
+            "orientation_angle": -77.00538635253906,
+            "peak_intensity": 1203.697265625,
+            "mean_intensity": 72.65414428710938
+          },
+          "confidence": 0.896,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_16_inst10102.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 11586,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            4325,
+            2211,
+            9,
+            20
+          ],
+          "centroid": [
+            4329.097826086957,
+            2220.1847826086955
+          ],
+          "morphology": {
+            "area": 69.5,
+            "perimeter": 60.5269113779068,
+            "circularity": 0.23839527465669624,
+            "bbox_aspect": 2.2222197530891634,
+            "rect_len": 19.091882705688477,
+            "rect_width": 7.49533224105835,
+            "rect_aspect": 2.5471662389351666,
+            "semi_major": 7.6759242557428635,
+            "semi_minor": 3.26459904098867,
+            "axis_ratio": 2.3511889333046496,
+            "eccentricity": 0.9050506997130131,
+            "orientation_angle": -8.13010311126709,
+            "peak_intensity": 401.1048583984375,
+            "mean_intensity": 44.672122955322266
+          },
+          "confidence": 0.926,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_17_inst11586.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 12108,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            8077,
+            2329,
+            13,
+            11
+          ],
+          "centroid": [
+            8082.218181818182,
+            2333.7272727272725
+          ],
+          "morphology": {
+            "area": 34.5,
+            "perimeter": 46.870057225227356,
+            "circularity": 0.19735039117610748,
+            "bbox_aspect": 1.1818171074389934,
+            "rect_len": 13.416406631469727,
+            "rect_width": 7.155416965484619,
+            "rect_aspect": 1.874997354621321,
+            "semi_major": 5.5286460526397105,
+            "semi_minor": 2.927921191118926,
+            "axis_ratio": 1.888185122911276,
+            "eccentricity": 0.8482531517928484,
+            "orientation_angle": -63.4349479675293,
+            "peak_intensity": 102.78076934814453,
+            "mean_intensity": 28.1160945892334
+          },
+          "confidence": 0.6,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_18_inst12108.png"
+        },
+        {
+          "image_id": "66ed4268-554e-4729-9e87-e556c2fd42b9",
+          "instance_id": 12468,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6147,
+            4798,
+            18,
+            13
+          ],
+          "centroid": [
+            6154.861313868613,
+            4803.963503649635
+          ],
+          "morphology": {
+            "area": 112.5,
+            "perimeter": 71.49747383594513,
+            "circularity": 0.27655466680270624,
+            "bbox_aspect": 1.3846143195274465,
+            "rect_len": 17.0,
+            "rect_width": 12.0,
+            "rect_aspect": 1.4166654861120949,
+            "semi_major": 8.896906614252453,
+            "semi_minor": 4.51752633555908,
+            "axis_ratio": 1.969376383394802,
+            "eccentricity": 0.861496387059023,
+            "orientation_angle": -90.0,
+            "peak_intensity": 2693.6611328125,
+            "mean_intensity": 94.90621948242188
+          },
+          "confidence": 0.867,
+          "crop_path": "data/processed\\review_crops\\66ed4268-554e-4729-9e87-e556c2fd42b9\\streak_19_inst12468.png"
+        }
+      ],
+      "elapsed_sec": 27.81
+    },
+    {
+      "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 3.175123630428314,
+      "bg_median": 2.937187910079956,
+      "num_stars": 9976,
+      "num_streaks": 10,
+      "num_review": 3,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 3213,
+      "review_entries": [
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 522,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            9418,
+            2373,
+            29,
+            9
+          ],
+          "centroid": [
+            9432.861111111111,
+            2377.3194444444443
+          ],
+          "morphology": {
+            "area": 42.0,
+            "perimeter": 74.42640614509583,
+            "circularity": 0.09528072592573487,
+            "bbox_aspect": 3.222218641979287,
+            "rect_len": 28.376667022705078,
+            "rect_width": 4.3656415939331055,
+            "rect_aspect": 6.499984346469563,
+            "semi_major": 13.851002532106698,
+            "semi_minor": 1.4315466221403115,
+            "axis_ratio": 9.674875292479266,
+            "eccentricity": 0.9946447097102675,
+            "orientation_angle": -75.96375274658203,
+            "peak_intensity": 20.78988265991211,
+            "mean_intensity": 10.651134490966797
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_1_inst522.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 563,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            9447,
+            2381,
+            16,
+            7
+          ],
+          "centroid": [
+            9454.411764705883,
+            2383.029411764706
+          ],
+          "morphology": {
+            "area": 16.5,
+            "perimeter": 44.041630148887634,
+            "circularity": 0.10689737415259422,
+            "bbox_aspect": 2.285711020412828,
+            "rect_len": 15.041322708129883,
+            "rect_width": 4.642383575439453,
+            "rect_aspect": 3.239993004407443,
+            "semi_major": 8.480432433411151,
+            "semi_minor": 1.0973568591829246,
+            "axis_ratio": 7.727349246078774,
+            "eccentricity": 0.9915926480170976,
+            "orientation_angle": -68.19859313964844,
+            "peak_intensity": 16.789783477783203,
+            "mean_intensity": 10.61363697052002
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_2_inst563.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 1187,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1312,
+            2509,
+            14,
+            10
+          ],
+          "centroid": [
+            1318.4716981132076,
+            2513.3207547169814
+          ],
+          "morphology": {
+            "area": 32.0,
+            "perimeter": 50.28427064418793,
+            "circularity": 0.15903603218315832,
+            "bbox_aspect": 1.3999986000014,
+            "rect_len": 15.254256248474121,
+            "rect_width": 5.824352264404297,
+            "rect_aspect": 2.6190431769158327,
+            "semi_major": 8.117686670990675,
+            "semi_minor": 1.6016535792765028,
+            "axis_ratio": 5.0679997073316105,
+            "eccentricity": 0.9803423175875109,
+            "orientation_angle": -33.690067291259766,
+            "peak_intensity": 24.835241317749023,
+            "mean_intensity": 12.664101600646973
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_3_inst1187.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 1399,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6705,
+            301,
+            30,
+            21
+          ],
+          "centroid": [
+            6719.238532110092,
+            311.0183486238532
+          ],
+          "morphology": {
+            "area": 76.5,
+            "perimeter": 108.6101713180542,
+            "circularity": 0.08149487570333319,
+            "bbox_aspect": 1.4285707482996437,
+            "rect_len": 34.64271545410156,
+            "rect_width": 6.688444137573242,
+            "rect_aspect": 5.179480152146324,
+            "semi_major": 20.506035472794583,
+            "semi_minor": 1.9395658250333165,
+            "axis_ratio": 10.57194244912902,
+            "eccentricity": 0.9955167779439251,
+            "orientation_angle": -59.03624725341797,
+            "peak_intensity": 24.362030029296875,
+            "mean_intensity": 11.39829158782959
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_4_inst1399.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 1722,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            2085,
+            2615,
+            36,
+            20
+          ],
+          "centroid": [
+            2101.8920454545455,
+            2624.7727272727275
+          ],
+          "morphology": {
+            "area": 122.0,
+            "perimeter": 138.99494755268097,
+            "circularity": 0.0793545195758693,
+            "bbox_aspect": 1.79999910000045,
+            "rect_len": 38.07548141479492,
+            "rect_width": 8.325839042663574,
+            "rect_aspect": 4.573164997309867,
+            "semi_major": 19.040677321521056,
+            "semi_minor": 2.322920935382531,
+            "axis_ratio": 8.196515593771709,
+            "eccentricity": 0.9925303695623223,
+            "orientation_angle": -23.962488174438477,
+            "peak_intensity": 49.55389404296875,
+            "mean_intensity": 19.165983200073242
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_5_inst1722.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 4710,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            7843,
+            1049,
+            47,
+            11
+          ],
+          "centroid": [
+            7865.26,
+            1053.57
+          ],
+          "morphology": {
+            "area": 144.0,
+            "perimeter": 139.1959581375122,
+            "circularity": 0.09339402801485823,
+            "bbox_aspect": 4.272723388433284,
+            "rect_len": 46.637062072753906,
+            "rect_width": 7.566118240356445,
+            "rect_aspect": 6.163926990293361,
+            "semi_major": 24.43446170538754,
+            "semi_minor": 2.2443013824762965,
+            "axis_ratio": 10.886850229270697,
+            "eccentricity": 0.9957728692157418,
+            "orientation_angle": -82.87498474121094,
+            "peak_intensity": 51.306148529052734,
+            "mean_intensity": 17.460586547851562
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_6_inst4710.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 5227,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            2989,
+            1159,
+            26,
+            11
+          ],
+          "centroid": [
+            2999.9640287769785,
+            1163.7194244604316
+          ],
+          "morphology": {
+            "area": 112.0,
+            "perimeter": 76.91168737411499,
+            "circularity": 0.2379267145996232,
+            "bbox_aspect": 2.3636342148779868,
+            "rect_len": 25.670063018798828,
+            "rect_width": 8.139288902282715,
+            "rect_aspect": 3.153842035657335,
+            "semi_major": 12.396893541187076,
+            "semi_minor": 3.0877692605447904,
+            "axis_ratio": 4.014708038189383,
+            "eccentricity": 0.9684839304461653,
+            "orientation_angle": -79.69515228271484,
+            "peak_intensity": 61.80934524536133,
+            "mean_intensity": 22.58894157409668
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_7_inst5227.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 7910,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1845,
+            3844,
+            45,
+            24
+          ],
+          "centroid": [
+            1867.607142857143,
+            3855.1363636363635
+          ],
+          "morphology": {
+            "area": 248.0,
+            "perimeter": 161.48022842407227,
+            "circularity": 0.11951511527355546,
+            "bbox_aspect": 1.8749992187503255,
+            "rect_len": 47.92589569091797,
+            "rect_width": 10.58104133605957,
+            "rect_aspect": 4.529407727905967,
+            "semi_major": 25.874466227230705,
+            "semi_minor": 3.457062414501209,
+            "axis_ratio": 7.484307395770357,
+            "eccentricity": 0.9910341196859717,
+            "orientation_angle": -66.25050354003906,
+            "peak_intensity": 75.34414672851562,
+            "mean_intensity": 24.628122329711914
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_8_inst7910.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 8795,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            2269,
+            4029,
+            11,
+            23
+          ],
+          "centroid": [
+            2273.909090909091,
+            4039.6545454545453
+          ],
+          "morphology": {
+            "area": 84.5,
+            "perimeter": 70.66904675960541,
+            "circularity": 0.21262195472239484,
+            "bbox_aspect": 2.0909071900843728,
+            "rect_len": 23.07657241821289,
+            "rect_width": 7.692190647125244,
+            "rect_aspect": 2.9999961619354205,
+            "semi_major": 10.773640427367273,
+            "semi_minor": 2.681715582520682,
+            "axis_ratio": 4.017293544562431,
+            "eccentricity": 0.9685254574360244,
+            "orientation_angle": -74.05460357666016,
+            "peak_intensity": 55.62166976928711,
+            "mean_intensity": 22.590126037597656
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_9_inst8795.png"
+        },
+        {
+          "image_id": "7030c2ac-83fe-4a83-b242-46aec9fec928",
+          "instance_id": 9019,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5062,
+            1964,
+            48,
+            14
+          ],
+          "centroid": [
+            5086.243027888446,
+            1970.9362549800796
+          ],
+          "morphology": {
+            "area": 196.5,
+            "perimeter": 139.4385987520218,
+            "circularity": 0.12700078317341024,
+            "bbox_aspect": 3.428568979593586,
+            "rect_len": 47.51445770263672,
+            "rect_width": 8.110271453857422,
+            "rect_aspect": 5.858546090288622,
+            "semi_major": 25.98082646737382,
+            "semi_minor": 2.6734704842674666,
+            "axis_ratio": 9.71765158998317,
+            "eccentricity": 0.9946915330672896,
+            "orientation_angle": -9.211027145385742,
+            "peak_intensity": 68.63214111328125,
+            "mean_intensity": 24.056821823120117
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7030c2ac-83fe-4a83-b242-46aec9fec928\\streak_10_inst9019.png"
+        }
+      ],
+      "elapsed_sec": 23.66
+    },
+    {
+      "image_id": "7d7fefcb-60ce-4f09-8572-4db66d030ff3",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 0.9399794936180115,
+      "bg_median": 0.8198353052139282,
+      "num_stars": 542,
+      "num_streaks": 1,
+      "num_review": 0,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 493,
+      "review_entries": [
+        {
+          "image_id": "7d7fefcb-60ce-4f09-8572-4db66d030ff3",
+          "instance_id": 218,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5898,
+            2534,
+            56,
+            12
+          ],
+          "centroid": [
+            5926.051546391753,
+            2539.721649484536
+          ],
+          "morphology": {
+            "area": 40.5,
+            "perimeter": 125.49747383594513,
+            "circularity": 0.03231431241537166,
+            "bbox_aspect": 4.666662777781019,
+            "rect_len": 56.08271408081055,
+            "rect_width": 2.6656758785247803,
+            "rect_aspect": 21.038755741110553,
+            "semi_major": 31.40836091808357,
+            "semi_minor": 0.7623197741074443,
+            "axis_ratio": 41.19562737581533,
+            "eccentricity": 0.9997054101349261,
+            "orientation_angle": -10.437475204467773,
+            "peak_intensity": 9.928815841674805,
+            "mean_intensity": 6.271595001220703
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7d7fefcb-60ce-4f09-8572-4db66d030ff3\\streak_1_inst218.png"
+        }
+      ],
+      "elapsed_sec": 19.4
+    },
+    {
+      "image_id": "7e5f3e1c-0255-44d2-9a5a-1e990100e5b6",
+      "split": "train",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 0.5750573195099831,
+      "bg_median": 1.141527771949768,
+      "num_stars": 860,
+      "num_streaks": 2,
+      "num_review": 0,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 751,
+      "review_entries": [
+        {
+          "image_id": "7e5f3e1c-0255-44d2-9a5a-1e990100e5b6",
+          "instance_id": 164,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6324,
+            1249,
+            32,
+            22
+          ],
+          "centroid": [
+            6339.584415584415,
+            1259.6493506493507
+          ],
+          "morphology": {
+            "area": 43.0,
+            "perimeter": 82.56854104995728,
+            "circularity": 0.07925909294090493,
+            "bbox_aspect": 1.4545447933887303,
+            "rect_len": 36.89152145385742,
+            "rect_width": 2.8926305770874023,
+            "rect_aspect": 12.75357946164313,
+            "semi_major": 20.59564998058036,
+            "semi_minor": 0.9616259054733218,
+            "axis_ratio": 21.41530124473878,
+            "eccentricity": 0.998909393225828,
+            "orientation_angle": -33.023868560791016,
+            "peak_intensity": 13.762109756469727,
+            "mean_intensity": 7.437272548675537
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7e5f3e1c-0255-44d2-9a5a-1e990100e5b6\\streak_1_inst164.png"
+        },
+        {
+          "image_id": "7e5f3e1c-0255-44d2-9a5a-1e990100e5b6",
+          "instance_id": 208,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            4835,
+            1577,
+            20,
+            29
+          ],
+          "centroid": [
+            4844.602564102564,
+            1590.820512820513
+          ],
+          "morphology": {
+            "area": 46.0,
+            "perimeter": 77.74011385440826,
+            "circularity": 0.09564832103209836,
+            "bbox_aspect": 1.4499992750003625,
+            "rect_len": 33.83671188354492,
+            "rect_width": 2.773500680923462,
+            "rect_aspect": 12.199957301869386,
+            "semi_major": 19.035713549800466,
+            "semi_minor": 1.005467467114997,
+            "axis_ratio": 18.930319617851694,
+            "eccentricity": 0.9986040464826931,
+            "orientation_angle": -33.690067291259766,
+            "peak_intensity": 16.6495361328125,
+            "mean_intensity": 8.519347190856934
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\7e5f3e1c-0255-44d2-9a5a-1e990100e5b6\\streak_2_inst208.png"
+        }
+      ],
+      "elapsed_sec": 19.16
+    },
+    {
+      "image_id": "CAM_B_20260815T153133_manual_f000207",
+      "split": "val",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 42.71226018447876,
+      "bg_median": 51.6744270324707,
+      "num_stars": 14278,
+      "num_streaks": 18,
+      "num_review": 7,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 5537,
+      "review_entries": [
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 2237,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            38,
+            354,
+            15,
+            10
+          ],
+          "centroid": [
+            45.69230769230769,
+            358.3076923076923
+          ],
+          "morphology": {
+            "area": 19.0,
+            "perimeter": 50.76955187320709,
+            "circularity": 0.09263109648850093,
+            "bbox_aspect": 1.4999985000015001,
+            "rect_len": 15.652474403381348,
+            "rect_width": 5.813776969909668,
+            "rect_aspect": 2.6923027080960535,
+            "semi_major": 7.963640424774882,
+            "semi_minor": 1.4967720391921646,
+            "axis_ratio": 5.320187842557817,
+            "eccentricity": 0.9821784588086336,
+            "orientation_angle": -63.4349479675293,
+            "peak_intensity": 341.1996154785156,
+            "mean_intensity": 139.57821655273438
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_1_inst2237.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 3446,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1828,
+            5161,
+            7,
+            24
+          ],
+          "centroid": [
+            1829.695652173913,
+            5172.289855072464
+          ],
+          "morphology": {
+            "area": 36.0,
+            "perimeter": 78.08326029777527,
+            "circularity": 0.07419873267795651,
+            "bbox_aspect": 3.4285665306192423,
+            "rect_len": 23.0,
+            "rect_width": 6.0,
+            "rect_aspect": 3.833326944455093,
+            "semi_major": 12.718321278451741,
+            "semi_minor": 1.4966973300778383,
+            "axis_ratio": 8.49702295887336,
+            "eccentricity": 0.9930515194063337,
+            "orientation_angle": -90.0,
+            "peak_intensity": 342.5411682128906,
+            "mean_intensity": 187.04441833496094
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_2_inst3446.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 5205,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            3812,
+            3067,
+            13,
+            19
+          ],
+          "centroid": [
+            3817.6140350877195,
+            3076.315789473684
+          ],
+          "morphology": {
+            "area": 34.5,
+            "perimeter": 57.35533833503723,
+            "circularity": 0.13178963862899154,
+            "bbox_aspect": 1.4615373372789713,
+            "rect_len": 18.40715980529785,
+            "rect_width": 6.059023380279541,
+            "rect_aspect": 3.0379696974781503,
+            "semi_major": 7.534140145187598,
+            "semi_minor": 1.7899365061419819,
+            "axis_ratio": 4.208931001874219,
+            "eccentricity": 0.9713687730851677,
+            "orientation_angle": -57.52880859375,
+            "peak_intensity": 468.68817138671875,
+            "mean_intensity": 166.05963134765625
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_3_inst5205.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 5411,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5071,
+            834,
+            50,
+            16
+          ],
+          "centroid": [
+            5094.939209726444,
+            841.1671732522797
+          ],
+          "morphology": {
+            "area": 266.0,
+            "perimeter": 159.33809340000153,
+            "circularity": 0.13165952025136993,
+            "bbox_aspect": 3.124998046876221,
+            "rect_len": 49.22514343261719,
+            "rect_width": 10.59027099609375,
+            "rect_aspect": 4.6481432788019506,
+            "semi_major": 25.450902531843965,
+            "semi_minor": 3.575635875266891,
+            "axis_ratio": 7.117668479902566,
+            "eccentricity": 0.9900818825274553,
+            "orientation_angle": -78.69007110595703,
+            "peak_intensity": 1644.256591796875,
+            "mean_intensity": 491.30291748046875
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_4_inst5411.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 6350,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5159,
+            3233,
+            21,
+            15
+          ],
+          "centroid": [
+            5168.363636363636,
+            3239.4166666666665
+          ],
+          "morphology": {
+            "area": 98.5,
+            "perimeter": 89.15432798862457,
+            "circularity": 0.15572603747437172,
+            "bbox_aspect": 1.399999066667289,
+            "rect_len": 20.124608993530273,
+            "rect_width": 10.733125686645508,
+            "rect_aspect": 1.8749980975801808,
+            "semi_major": 10.151770787113657,
+            "semi_minor": 4.2756927321631375,
+            "axis_ratio": 2.374242958680049,
+            "eccentricity": 0.9069784512732512,
+            "orientation_angle": -26.565052032470703,
+            "peak_intensity": 12745.62890625,
+            "mean_intensity": 858.5745849609375
+          },
+          "confidence": 0.939,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_5_inst6350.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 7235,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1996,
+            5754,
+            22,
+            13
+          ],
+          "centroid": [
+            2006.4,
+            5760.624242424243
+          ],
+          "morphology": {
+            "area": 140.5,
+            "perimeter": 81.98275470733643,
+            "circularity": 0.26268856876241403,
+            "bbox_aspect": 1.6923063905335458,
+            "rect_len": 21.0,
+            "rect_width": 12.0,
+            "rect_aspect": 1.749998541667882,
+            "semi_major": 10.438905006937485,
+            "semi_minor": 4.935710595542606,
+            "axis_ratio": 2.1149322497027283,
+            "eccentricity": 0.8811596821365223,
+            "orientation_angle": -90.0,
+            "peak_intensity": 15192.01953125,
+            "mean_intensity": 1267.1776123046875
+          },
+          "confidence": 0.921,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_6_inst7235.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 8226,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            287,
+            5911,
+            12,
+            13
+          ],
+          "centroid": [
+            292.25531914893617,
+            5917.234042553191
+          ],
+          "morphology": {
+            "area": 30.5,
+            "perimeter": 51.35533833503723,
+            "circularity": 0.1453243917379799,
+            "bbox_aspect": 1.083332430556308,
+            "rect_len": 14.863390922546387,
+            "rect_width": 5.6443257331848145,
+            "rect_aspect": 2.6333286369129083,
+            "semi_major": 7.902312163428762,
+            "semi_minor": 1.9798916327594833,
+            "axis_ratio": 3.9910836150430766,
+            "eccentricity": 0.9681047328614022,
+            "orientation_angle": -41.1859245300293,
+            "peak_intensity": 225.45770263671875,
+            "mean_intensity": 140.06414794921875
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_7_inst8226.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 8372,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5917,
+            5935,
+            17,
+            21
+          ],
+          "centroid": [
+            5925.071038251366,
+            5944.868852459016
+          ],
+          "morphology": {
+            "area": 152.5,
+            "perimeter": 82.32590091228485,
+            "circularity": 0.28275267592285636,
+            "bbox_aspect": 1.2352933910038877,
+            "rect_len": 22.00373649597168,
+            "rect_width": 12.406362533569336,
+            "rect_aspect": 1.7735834093675378,
+            "semi_major": 10.213367045222833,
+            "semi_minor": 5.13657951714963,
+            "axis_ratio": 1.9883208619739399,
+            "eccentricity": 0.864328813402403,
+            "orientation_angle": -69.44395446777344,
+            "peak_intensity": 29284.1796875,
+            "mean_intensity": 1877.9808349609375
+          },
+          "confidence": 0.919,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_8_inst8372.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 8758,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1501,
+            3579,
+            10,
+            16
+          ],
+          "centroid": [
+            1505.5974025974026,
+            3585.753246753247
+          ],
+          "morphology": {
+            "area": 60.5,
+            "perimeter": 52.18376553058624,
+            "circularity": 0.2791864974856471,
+            "bbox_aspect": 1.5999984000016,
+            "rect_len": 14.23024845123291,
+            "rect_width": 7.273237705230713,
+            "rect_aspect": 1.9565191545722993,
+            "semi_major": 7.680039538920576,
+            "semi_minor": 2.9153244589036813,
+            "axis_ratio": 2.6342783519791775,
+            "eccentricity": 0.9251517083745854,
+            "orientation_angle": -71.56504821777344,
+            "peak_intensity": 1982.931396484375,
+            "mean_intensity": 360.4814453125
+          },
+          "confidence": 0.906,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_9_inst8758.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 9863,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5668,
+            6191,
+            52,
+            27
+          ],
+          "centroid": [
+            5693.488372093023,
+            6204.445182724253
+          ],
+          "morphology": {
+            "area": 225.5,
+            "perimeter": 197.52185904979706,
+            "circularity": 0.07263167859865867,
+            "bbox_aspect": 1.9259252126202917,
+            "rect_len": 54.392822265625,
+            "rect_width": 9.681923866271973,
+            "rect_aspect": 5.61797085343746,
+            "semi_major": 30.914350051857195,
+            "semi_minor": 2.7454996854269687,
+            "axis_ratio": 11.259598482598783,
+            "eccentricity": 0.9960485959212781,
+            "orientation_angle": -67.61986541748047,
+            "peak_intensity": 1045.0589599609375,
+            "mean_intensity": 324.8523254394531
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_10_inst9863.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 10007,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            221,
+            6217,
+            11,
+            15
+          ],
+          "centroid": [
+            225.96666666666667,
+            6223.383333333333
+          ],
+          "morphology": {
+            "area": 38.0,
+            "perimeter": 55.597978949546814,
+            "circularity": 0.1544811348177105,
+            "bbox_aspect": 1.363635123968069,
+            "rect_len": 15.617377281188965,
+            "rect_width": 7.652514457702637,
+            "rect_aspect": 2.0408137690392243,
+            "semi_major": 7.100640022561351,
+            "semi_minor": 2.812132440534326,
+            "axis_ratio": 2.524912208612537,
+            "eccentricity": 0.918233571804212,
+            "orientation_angle": -51.34019088745117,
+            "peak_intensity": 2227.297607421875,
+            "mean_intensity": 461.69732666015625
+          },
+          "confidence": 0.909,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_11_inst10007.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 10712,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1248,
+            3867,
+            8,
+            14
+          ],
+          "centroid": [
+            1251.375,
+            3873.45
+          ],
+          "morphology": {
+            "area": 20.5,
+            "perimeter": 44.041630029678345,
+            "circularity": 0.13281188981765246,
+            "bbox_aspect": 1.7499978125027345,
+            "rect_len": 13.524564743041992,
+            "rect_width": 5.514871120452881,
+            "rect_aspect": 2.4523764787755495,
+            "semi_major": 4.32763341672155,
+            "semi_minor": 2.488042261636403,
+            "axis_ratio": 1.7393030468745583,
+            "eccentricity": 0.8182097905936422,
+            "orientation_angle": -23.198589324951172,
+            "peak_intensity": 852.150390625,
+            "mean_intensity": 251.3559112548828
+          },
+          "confidence": 0.6,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_12_inst10712.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 11411,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5028,
+            3990,
+            9,
+            17
+          ],
+          "centroid": [
+            5032.121951219512,
+            3997.9146341463415
+          ],
+          "morphology": {
+            "area": 60.5,
+            "perimeter": 56.66904664039612,
+            "circularity": 0.23674097167511207,
+            "bbox_aspect": 1.8888867901257889,
+            "rect_len": 16.0,
+            "rect_width": 8.0,
+            "rect_aspect": 1.9999975000031252,
+            "semi_major": 8.379964980799896,
+            "semi_minor": 2.541722626442197,
+            "axis_ratio": 3.296833104570077,
+            "eccentricity": 0.9528921128059156,
+            "orientation_angle": -90.0,
+            "peak_intensity": 1158.660400390625,
+            "mean_intensity": 328.22259521484375
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_13_inst11411.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 12016,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6081,
+            1829,
+            17,
+            10
+          ],
+          "centroid": [
+            6089.117021276596,
+            1833.0531914893618
+          ],
+          "morphology": {
+            "area": 67.5,
+            "perimeter": 59.69848430156708,
+            "circularity": 0.23800551861111796,
+            "bbox_aspect": 1.6999983000017,
+            "rect_len": 15.279744148254395,
+            "rect_width": 8.973817825317383,
+            "rect_aspect": 1.7027008368877399,
+            "semi_major": 8.037995519904548,
+            "semi_minor": 3.2863406890598323,
+            "axis_ratio": 2.4458057456086375,
+            "eccentricity": 0.9126012574042458,
+            "orientation_angle": -75.96375274658203,
+            "peak_intensity": 5953.15625,
+            "mean_intensity": 632.5413208007812
+          },
+          "confidence": 0.897,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_14_inst12016.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 12615,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1873,
+            4245,
+            20,
+            8
+          ],
+          "centroid": [
+            1881.9148936170213,
+            4249.191489361702
+          ],
+          "morphology": {
+            "area": 15.5,
+            "perimeter": 75.84061968326569,
+            "circularity": 0.033863965762597786,
+            "bbox_aspect": 2.4999968750039065,
+            "rect_len": 19.349597930908203,
+            "rect_width": 6.80972957611084,
+            "rect_aspect": 2.8414593120107385,
+            "semi_major": 8.098945689430495,
+            "semi_minor": 1.5888829243928666,
+            "axis_ratio": 5.096936892839812,
+            "eccentricity": 0.9805671172027003,
+            "orientation_angle": -85.23635864257812,
+            "peak_intensity": 605.0018920898438,
+            "mean_intensity": 148.2740936279297
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_15_inst12615.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 12845,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            84,
+            1996,
+            43,
+            20
+          ],
+          "centroid": [
+            105.78021978021978,
+            2005.4688644688645
+          ],
+          "morphology": {
+            "area": 223.0,
+            "perimeter": 123.88224971294403,
+            "circularity": 0.1825982285199197,
+            "bbox_aspect": 2.1499989250005376,
+            "rect_len": 44.596073150634766,
+            "rect_width": 9.377169609069824,
+            "rect_aspect": 4.755808783645396,
+            "semi_major": 23.902462581922016,
+            "semi_minor": 3.3216861126418733,
+            "axis_ratio": 7.195665756731091,
+            "eccentricity": 0.9902968211777152,
+            "orientation_angle": -70.90650939941406,
+            "peak_intensity": 674.7198486328125,
+            "mean_intensity": 261.5766906738281
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_16_inst12845.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 13055,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6628,
+            2039,
+            16,
+            8
+          ],
+          "centroid": [
+            6633.4838709677415,
+            2042.6129032258063
+          ],
+          "morphology": {
+            "area": 43.5,
+            "perimeter": 48.5269113779068,
+            "circularity": 0.23213136233512138,
+            "bbox_aspect": 1.9999975000031252,
+            "rect_len": 15.0,
+            "rect_width": 7.0,
+            "rect_aspect": 2.1428540816370263,
+            "semi_major": 6.610295333090637,
+            "semi_minor": 2.4869072904562683,
+            "axis_ratio": 2.6579316266812816,
+            "eccentricity": 0.9265314758341718,
+            "orientation_angle": -90.0,
+            "peak_intensity": 1180.1488037109375,
+            "mean_intensity": 335.4634704589844
+          },
+          "confidence": 0.916,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_17_inst13055.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T153133_manual_f000207",
+          "instance_id": 13248,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            7825,
+            2083,
+            17,
+            18
+          ],
+          "centroid": [
+            7833.461538461538,
+            2090.5470085470088
+          ],
+          "morphology": {
+            "area": 82.5,
+            "perimeter": 88.32590091228485,
+            "circularity": 0.1328885800279364,
+            "bbox_aspect": 1.058822906574761,
+            "rect_len": 19.55670928955078,
+            "rect_width": 10.95469856262207,
+            "rect_aspect": 1.7852331878804246,
+            "semi_major": 9.547919513099073,
+            "semi_minor": 3.5349258089382984,
+            "axis_ratio": 2.7009476108935884,
+            "eccentricity": 0.9289401415847507,
+            "orientation_angle": -36.027374267578125,
+            "peak_intensity": 3567.0,
+            "mean_intensity": 647.0676879882812
+          },
+          "confidence": 0.966,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T153133_manual_f000207\\streak_18_inst13248.png"
+        }
+      ],
+      "elapsed_sec": 25.98
+    },
+    {
+      "image_id": "CAM_B_20260815T154244_manual_f000276",
+      "split": "val",
+      "width": 9568,
+      "height": 6380,
+      "noise_sigma": 43.00126210212707,
+      "bg_median": 52.390594482421875,
+      "num_stars": 13719,
+      "num_streaks": 12,
+      "num_review": 5,
+      "reconstruction_image_exact": true,
+      "reconstruction_mask_exact": true,
+      "num_tiles": 70,
+      "full_polygons": 4955,
+      "review_entries": [
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 1697,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            7094,
+            4877,
+            7,
+            15
+          ],
+          "centroid": [
+            7096.705882352941,
+            4883.558823529412
+          ],
+          "morphology": {
+            "area": 16.5,
+            "perimeter": 44.52691125869751,
+            "circularity": 0.10458000737840062,
+            "bbox_aspect": 2.1428540816370263,
+            "rect_len": 15.205260276794434,
+            "rect_width": 4.4721360206604,
+            "rect_aspect": 3.3999919069165543,
+            "semi_major": 6.632424474614076,
+            "semi_minor": 1.1822617536422815,
+            "axis_ratio": 5.609471427998074,
+            "eccentricity": 0.9839843573134877,
+            "orientation_angle": -63.4349479675293,
+            "peak_intensity": 300.5377197265625,
+            "mean_intensity": 157.5033416748047
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_1_inst1697.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 2805,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            880,
+            490,
+            41,
+            14
+          ],
+          "centroid": [
+            899.7410071942446,
+            496.0863309352518
+          ],
+          "morphology": {
+            "area": 85.5,
+            "perimeter": 142.61017167568207,
+            "circularity": 0.05282931424977476,
+            "bbox_aspect": 2.9285693367361882,
+            "rect_len": 40.94522476196289,
+            "rect_width": 6.317043304443359,
+            "rect_aspect": 6.481696890726312,
+            "semi_major": 21.937244421613258,
+            "semi_minor": 2.0720264399309998,
+            "axis_ratio": 10.586827135096906,
+            "eccentricity": 0.9955293743151401,
+            "orientation_angle": -74.35774993896484,
+            "peak_intensity": 353.76837158203125,
+            "mean_intensity": 155.5148162841797
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_2_inst2805.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 2932,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            5060,
+            508,
+            54,
+            22
+          ],
+          "centroid": [
+            5085.282674772036,
+            517.275075987842
+          ],
+          "morphology": {
+            "area": 591.0,
+            "perimeter": 178.30865585803986,
+            "circularity": 0.23358905652389222,
+            "bbox_aspect": 2.4545443388434824,
+            "rect_len": 53.210899353027344,
+            "rect_width": 18.97731590270996,
+            "rect_aspect": 2.8039197738301387,
+            "semi_major": 27.554674574018946,
+            "semi_minor": 7.005453295420374,
+            "axis_ratio": 3.9332617156780203,
+            "eccentricity": 0.9671416096710439,
+            "orientation_angle": -7.125016212463379,
+            "peak_intensity": 20385.54296875,
+            "mean_intensity": 2950.136474609375
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_3_inst2932.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 6107,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            4485,
+            3205,
+            15,
+            16
+          ],
+          "centroid": [
+            4493.424657534247,
+            3211.5616438356165
+          ],
+          "morphology": {
+            "area": 48.0,
+            "perimeter": 67.25483310222626,
+            "circularity": 0.13335340300872775,
+            "bbox_aspect": 1.0666659555560296,
+            "rect_len": 15.799478530883789,
+            "rect_width": 9.050187110900879,
+            "rect_aspect": 1.745760709659402,
+            "semi_major": 7.310742946038656,
+            "semi_minor": 3.625257994195306,
+            "axis_ratio": 2.016557525558622,
+            "eccentricity": 0.8683905365416,
+            "orientation_angle": -57.52880859375,
+            "peak_intensity": 4436.759765625,
+            "mean_intensity": 416.00537109375
+          },
+          "confidence": 0.86,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_4_inst6107.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 7175,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6770,
+            5776,
+            35,
+            31
+          ],
+          "centroid": [
+            6787.479651162791,
+            5791.53488372093
+          ],
+          "morphology": {
+            "area": 293.0,
+            "perimeter": 138.50966620445251,
+            "circularity": 0.1919187114291025,
+            "bbox_aspect": 1.1290318938606794,
+            "rect_len": 39.58985900878906,
+            "rect_width": 13.748478889465332,
+            "rect_aspect": 2.879578936062164,
+            "semi_major": 21.105487128441744,
+            "semi_minor": 4.605011589562517,
+            "axis_ratio": 4.583056613932509,
+            "eccentricity": 0.9759062524893988,
+            "orientation_angle": -30.256439208984375,
+            "peak_intensity": 3823.50830078125,
+            "mean_intensity": 887.0894165039062
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_5_inst7175.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 7327,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            6894,
+            3389,
+            48,
+            24
+          ],
+          "centroid": [
+            6917.484679665738,
+            3400.236768802228
+          ],
+          "morphology": {
+            "area": 285.0,
+            "perimeter": 192.93607258796692,
+            "circularity": 0.09621169292635041,
+            "bbox_aspect": 1.9999991666670138,
+            "rect_len": 49.60483932495117,
+            "rect_width": 12.020285606384277,
+            "rect_aspect": 4.126757024062271,
+            "semi_major": 27.078090553575894,
+            "semi_minor": 3.66564022624943,
+            "axis_ratio": 7.386800177403897,
+            "eccentricity": 0.9907947175024829,
+            "orientation_angle": -73.61045837402344,
+            "peak_intensity": 2617.09912109375,
+            "mean_intensity": 628.889892578125
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_6_inst7327.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 8120,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            4850,
+            3506,
+            16,
+            17
+          ],
+          "centroid": [
+            4857.009433962264,
+            3513.0283018867926
+          ],
+          "morphology": {
+            "area": 76.0,
+            "perimeter": 77.74011433124542,
+            "circularity": 0.1580276588970416,
+            "bbox_aspect": 1.0624993359379151,
+            "rect_len": 16.800003051757812,
+            "rect_width": 10.000001907348633,
+            "rect_aspect": 1.6799983047432296,
+            "semi_major": 8.951527386060514,
+            "semi_minor": 3.7138745863819627,
+            "axis_ratio": 2.4102284972231893,
+            "eccentricity": 0.9098728360793293,
+            "orientation_angle": -36.869895935058594,
+            "peak_intensity": 10293.302734375,
+            "mean_intensity": 928.0352172851562
+          },
+          "confidence": 0.909,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_7_inst8120.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 8490,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1356,
+            3559,
+            24,
+            18
+          ],
+          "centroid": [
+            1366.7846889952152,
+            3566.755980861244
+          ],
+          "morphology": {
+            "area": 175.5,
+            "perimeter": 106.95331752300262,
+            "circularity": 0.19279619760127453,
+            "bbox_aspect": 1.3333325925930042,
+            "rect_len": 21.920310974121094,
+            "rect_width": 16.970561981201172,
+            "rect_aspect": 1.2916660085707719,
+            "semi_major": 11.330979727564845,
+            "semi_minor": 6.005533646753479,
+            "axis_ratio": 1.8867250974741254,
+            "eccentricity": 0.8479913369198174,
+            "orientation_angle": -45.0,
+            "peak_intensity": 14620.763671875,
+            "mean_intensity": 855.3365478515625
+          },
+          "confidence": 0.908,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_8_inst8490.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 9538,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            1801,
+            6181,
+            21,
+            13
+          ],
+          "centroid": [
+            1811.2585034013605,
+            6187.088435374149
+          ],
+          "morphology": {
+            "area": 111.5,
+            "perimeter": 86.32590067386627,
+            "circularity": 0.18801932749354125,
+            "bbox_aspect": 1.615383372782021,
+            "rect_len": 19.9798526763916,
+            "rect_width": 11.684124946594238,
+            "rect_aspect": 1.7099984524070777,
+            "semi_major": 10.544821597291907,
+            "semi_minor": 4.884235965466142,
+            "axis_ratio": 2.158905872128219,
+            "eccentricity": 0.8862599981218,
+            "orientation_angle": -83.2901611328125,
+            "peak_intensity": 10082.552734375,
+            "mean_intensity": 1191.3314208984375
+          },
+          "confidence": 0.916,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_9_inst9538.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 11203,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            3546,
+            1788,
+            51,
+            13
+          ],
+          "centroid": [
+            3571.629090909091,
+            1792.7818181818182
+          ],
+          "morphology": {
+            "area": 217.0,
+            "perimeter": 161.48022866249084,
+            "circularity": 0.10457572555555794,
+            "bbox_aspect": 3.9230739053277652,
+            "rect_len": 50.3255615234375,
+            "rect_width": 10.131549835205078,
+            "rect_aspect": 4.967207650352769,
+            "semi_major": 25.33928327568399,
+            "semi_minor": 3.0292537762943916,
+            "axis_ratio": 8.364583718802185,
+            "eccentricity": 0.9928284547299633,
+            "orientation_angle": -85.23635864257812,
+            "peak_intensity": 885.3295288085938,
+            "mean_intensity": 269.02630615234375
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_10_inst11203.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 12132,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            7775,
+            1987,
+            9,
+            19
+          ],
+          "centroid": [
+            7778.7962962962965,
+            1996.2407407407406
+          ],
+          "morphology": {
+            "area": 33.0,
+            "perimeter": 57.94112479686737,
+            "circularity": 0.12352360567206944,
+            "bbox_aspect": 2.111108765434705,
+            "rect_len": 18.663339614868164,
+            "rect_width": 6.221113204956055,
+            "rect_aspect": 2.99999517771968,
+            "semi_major": 8.922652298259921,
+            "semi_minor": 1.9365217243303627,
+            "axis_ratio": 4.607328414301022,
+            "eccentricity": 0.9761639763545604,
+            "orientation_angle": -12.994617462158203,
+            "peak_intensity": 283.8973388671875,
+            "mean_intensity": 143.95748901367188
+          },
+          "confidence": 0.99,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_11_inst12132.png"
+        },
+        {
+          "image_id": "CAM_B_20260815T154244_manual_f000276",
+          "instance_id": 12346,
+          "class_id": 1,
+          "class_name": "object_streak",
+          "bbox": [
+            2327,
+            2026,
+            9,
+            15
+          ],
+          "centroid": [
+            2330.7272727272725,
+            2032.4772727272727
+          ],
+          "morphology": {
+            "area": 67.5,
+            "perimeter": 51.69848430156708,
+            "circularity": 0.3173642589437195,
+            "bbox_aspect": 1.6666648148168726,
+            "rect_len": 14.0,
+            "rect_width": 8.0,
+            "rect_aspect": 1.7499978125027345,
+            "semi_major": 7.725677399013249,
+            "semi_minor": 3.174744952024133,
+            "axis_ratio": 2.433403052986168,
+            "eccentricity": 0.9116650186473189,
+            "orientation_angle": -90.0,
+            "peak_intensity": 1707.2342529296875,
+            "mean_intensity": 442.3489990234375
+          },
+          "confidence": 0.883,
+          "crop_path": "data/processed\\review_crops\\CAM_B_20260815T154244_manual_f000276\\streak_12_inst12346.png"
+        }
+      ],
+      "elapsed_sec": 24.68
+    }
+  ]
+}

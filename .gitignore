@@ -1,0 +1,61 @@
+# Raw datasets and archives
+Datasets_Assessment/
+Datasets_Assessment.zip
+*.fits
+*.fit
+*.fts
+*.tar.gz
+*.zip
+
+# Confidential assessment materials
+*.pdf
+!docs/ASSESSMENT_REPORT.pdf
+
+# Python artifacts and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & linting caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Large generated data, masks, tiles, and submissions
+data/
+outputs/
+submission/
+runs/
+scratch/
+tmp/
+temp/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
